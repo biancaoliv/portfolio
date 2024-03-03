@@ -8,7 +8,8 @@
     transition: .25s;
 }
 
-.acordeon.open, .acordeon:hover {
+.acordeon.open,
+.acordeon:hover {
     background-color: #55569E;
     border-color: #55569E;
 }
@@ -36,7 +37,7 @@
     text-align: start;
 }
 
-.acordeon .trigger:hover{
+.acordeon .trigger:hover {
     cursor: pointer;
 }
 
@@ -52,7 +53,7 @@
 }
 
 .acordeon .content {
-    overflow: hidden;    
+    overflow: hidden;
     height: 0;
     opacity: 0;
     transition: opacity .25s ease-in-out;
